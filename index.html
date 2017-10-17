@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Astro Weight Calculator</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      
+    </head>
+    <body>
+   <h1 id="header-text">Astro Weight Calculator</h1>   
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Planets2013.svg/1047px-Planets2013.svg.png" alt="Smiley face" width="864" height="500"><br>
+   <label class="info">When NASA plans for Space Exploration, they have to account for the weight of all items aboard the shuttle to determine how much fuel is required to leave Earth, travel through space and reach their destination. They also have to plan for the return trip. Gravity affects the weight of items. Use the Astro Weight Calculator to determine what the weight of an item will be on a different object in our Solar System.</label><br>
+      <label class="info">Don't consider Pluto a planet? and want to remove all non-planet objects?</label><br>
+      
+      <label class="info1">Click on the checkbox to remove them!</label>
+      
+     <input type="checkbox" id="checkbox"/> 
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <h6>Weight of Item on Earth</h6>
+        <input id="user-weight" type="number" placeholder="Weight (lbs)" />
+      </div>
+      <div class="col-md-2">
+        <h6>Select an Object in our Solar System</h6>
+        <select id="planets"></select>
+      </div>
+      <div class="col-md-2" >
+        <button type="button" id="calculate-button" class="btn btn-primary">Calculate</button>
+      </div>
+      <div class="col-md-6"></div>
+    </div>
+  </div>   
+    <div id="text-box">
+      
+      <p id="output"></p> 
+    </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></script>
+      
+      <script src="main.js" charset="utf-8"></script>
+    </body>
+  </html>
+

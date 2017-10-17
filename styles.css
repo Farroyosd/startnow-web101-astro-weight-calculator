@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+  }
+  #header-text {
+    color:white;
+    padding-left: 20px;
+  }
+  .info {
+    color:white;
+    padding-left: 15px;
+    width:720px;
+  }
+  #info{
+    color:white;
+    padding-left: 15px;
+  }
+  
+  .col-md-2{
+    height: 70px;
+    background-color: #c0c3c6;
+  }
+  #user-weight{
+    width: 200px;
+  }
+  
+  #planets{
+    width: 200px;
+  }
+  
+  #calculate-button{
+    margin-top: 25px;
+  }
+  #text-box{
+    Background-color: #c0c3c6;
+    width: 720px;
+    text-align:center;
+    font-size: 20px
+  }
+  .info1 {
+    color: white;
+    padding-left: 15px;
+  }
